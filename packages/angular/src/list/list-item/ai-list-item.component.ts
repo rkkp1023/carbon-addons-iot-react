@@ -79,6 +79,7 @@ import { IconService } from 'carbon-components-angular';
           >
             <div
               class="iot--list-item--content--values--value"
+              title="{{ item.value }}"
               [ngClass]="{
                 'iot--list-item--category': item.isCategory,
                 'iot--list-item--content--values__disabled': item.disabled,
